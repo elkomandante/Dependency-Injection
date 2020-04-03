@@ -1,0 +1,10 @@
+services:
+  App\Controller\BlogController:
+    class: "App\\Controller\\BlogController"
+    arguments:
+      mail: "vladeradulovic@gmail.com"
+      pera: "asdasdasdasd"
+  App\Test\TestClassInterface:
+    class: "App\\Test\\TestClass"
+    arguments:
+      testArgument: "skjafdlfdjkl"
